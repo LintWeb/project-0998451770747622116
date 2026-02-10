@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healing Hands | Premium Massage Spa in Chattogram</title>
     <meta name="description" content="Experience professional massage therapy at Healing Hands. Rated 5.0/5. Located at Chatteshwari Rd, Chattogram. Book your relaxation today.">
-    <!-- Google Fonts -->
+    <!-- Google Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
             --primary: #2d4a3e; /* Deep Forest Green */
@@ -192,7 +193,7 @@
             font-size: 2.5rem;
             color: var(--secondary);
             margin-bottom: 1.5rem;
-            display: block;
+            display: inline-block;
         }
 
         .service-card h3 {
@@ -234,7 +235,9 @@
         .stars {
             color: #ffb400;
             margin-right: 0.5rem;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            display: flex;
+            gap: 2px;
         }
 
         /* Contact Section */
@@ -262,9 +265,10 @@
             margin-bottom: 2rem;
         }
 
-        .contact-item span {
-            font-size: 1.5rem;
+        .contact-item i {
+            font-size: 1.2rem;
             color: var(--secondary);
+            margin-top: 0.3rem;
         }
 
         .contact-item p {
@@ -362,17 +366,17 @@
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <span class="service-icon">🌿</span>
+                    <i class="fa-solid fa-leaf service-icon"></i>
                     <h3>Swedish Massage</h3>
                     <p>A gentle, full-body massage ideal for those new to massage or looking for pure relaxation.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">💆‍♀️</span>
+                    <i class="fa-solid fa-hands-holding service-icon"></i>
                     <h3>Deep Tissue</h3>
                     <p>Focuses on realigning deeper layers of muscles and connective tissue to relieve chronic pain.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">✨</span>
+                    <i class="fa-solid fa-sparkles service-icon"></i>
                     <h3>Aromatherapy</h3>
                     <p>Combines the physical benefits of massage with the healing properties of essential oils.</p>
                 </div>
@@ -390,7 +394,13 @@
                 <p>At Healing Hands, we believe that massage is not a luxury, but a necessity for a healthy lifestyle. Our certified therapists are dedicated to providing a personalized experience that addresses your specific needs.</p>
                 
                 <div class="rating-box">
-                    <div class="stars">★★★★★</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                     <strong>5.0 / 5.0</strong>
                     <span style="margin-left: 0.5rem; color: #666;">(8 Verified Reviews)</span>
                 </div>
@@ -407,21 +417,21 @@
                 <div class="contact-info">
                     <h2>Visit Us Today</h2>
                     <div class="contact-item">
-                        <span>📍</span>
+                        <i class="fa-solid fa-location-dot"></i>
                         <div>
                             <strong>Location</strong>
                             <p>Besides Rupayan Alif Meem Tower,<br>82 Chatteshwari Rd, Chattogram 4000, Bangladesh</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <span>📞</span>
+                        <i class="fa-solid fa-phone"></i>
                         <div>
                             <strong>Phone</strong>
                             <p><a href="tel:+8801781388288" style="color: inherit; text-decoration: none;">+880 1781-388288</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <span>🕒</span>
+                        <i class="fa-solid fa-clock"></i>
                         <div>
                             <strong>Opening Hours</strong>
                             <p>Everyday: 10:00 AM - 10:00 PM</p>
